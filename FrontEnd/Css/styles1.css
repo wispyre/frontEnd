@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    background: gainsboro;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    background: white;
+    margin: auto;
+}
+
+
+.search{
+    float: right;
+
+}
+
+.clearfix {
+    clear: both;
+}
+.main-menu{
+    background: teal;
+}
+
+.main-menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+.main-menu > ul > li {
+    display: inline-block;
+}
+
+.main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+
+
+/*DROP*/
+.drop {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    /* display: none; */
+    z-index: 999;
+}
+
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+}
+
+.drop > li > a:hover{
+    background-color: orange;
+}
+
+li:hover .drop {
+    display: block;
+}
+
+
